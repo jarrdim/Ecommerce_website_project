@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&family=Dongle:wght@300&family=Josefin+Sans:wght@200&family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,300;1,100;1,300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #f7f7f7;
+}
+
+
+
+/*MENUBAR STYLES*/
+
+.menubar{
+    width: 100%;
+    min-height: 100px;
+    background: #333;
+}
+/*END OF MENUBAR STYLES*/
+
+/*BANNER STYLES*/
+.banner{
+    height: 100vh;
+    background: rgb(51, 78, 87);
+}
+/*END BANNER STYLES*/
+
+
+
+
+/*SECTION STYLES*/
+section{
+    height: 100vh;
+    background: #f7f7f7;
+}
+/*END OF SECTION STYLES */
+
+
+
+/*EXTRA SECTION STYLES*/
+.explain{
+    height: 100vh;
+    background: rgb(114, 94, 94);
+}
+
+/*END EXTRA SECTION STYLES*/
+
+
+
+/*FOOTER STYLES*/
+footer{
+    min-height: 80vh;
+    background: rgb(12, 12, 12);
+    padding-bottom: 30px;
+    color: rgb(221, 213, 213);
+}
+.row{
+    width: 90%;
+    display: flex;
+    height: 70%;
+    text-align: left;
+    position: relative;  
+    top: 30px;
+    margin: auto;
+}
+.column{
+    height: 100%;
+    width: 25%;
+}
+
+.finisher{
+    position: absolute;
+    background: rgb(12, 12, 12);
+    width: 100%;
+    color: #ffffff;
+    padding: 5px 0 40px 0;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 14px;
+}
+.about{
+    padding-top: 10px;
+
+}
+.column h3{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 21px;
+}
+.about ul{
+    list-style: none;
+    cursor: pointer;
+}
+.about ul li{
+    line-height: 28px;
+    font-size: 14px;
+}
+.about ul li:hover{
+    color: rgb(95, 94, 94);
+    margin-left: 5px;
+    font-size: 15px;
+}
+.payments{
+    width: 90%;
+    top: 60px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+hr{
+    border: none;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.col{
+    height: 150px;
+    width: 50%;
+    padding-left: 100px;
+}
+
+.col h3{
+    font-size: 13px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.col ul{
+    list-style: none;
+    display: inline-flex;
+    padding-top: 30px;
+    padding-left: 100px;
+    cursor: pointer;
+
+}
+.col ul li{
+    margin-right: 40px;
+    /*
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+   
+
+}
+.col ul li:hover{
+    background-color: grey;
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+}
+*/
+}
+.col ul li:hover{
+    font-size: 27px;
+    transition:  ease-in-out;
+    transition-delay: .1s;
+    
+}
+
+ .fa-brands{
+     font-size: 24px;
+     margin: auto;
+   
+}
+
+.fa-facebook-f{
+ color: #4267B2;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+.fa-instagram{
+    color: #e1306c;
+}
+.fa-youtube{
+    color: rgb(201, 26, 26);
+}
+.social-links ul{
+    padding-left: 20px;
+}
+
+.str img{
+    width: 150px;
+    cursor: pointer;
+}
+.str img:hover{
+    width: 160px;
+}
+
+
+/*END OF FOOTER STYLES*/
